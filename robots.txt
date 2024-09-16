@@ -1,0 +1,3 @@
+User-agent: *  
+Disallow: /Main_File/  
+Disallow: /Image/  

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .pretty-link {  
+      display: inline-block;  
+      color: #ffffff; /* 链接文字颜色 */  
+      background-color: #007bff; /* 链接背景颜色 */  
+      text-decoration: none; /* 移除下划线 */  
+      padding: 5px 10px; /* 内边距 */  
+      border-radius: 5px; /* 边框圆角 */  
+      transition: background-color 0.3s ease; /* 背景颜色过渡效果 */  
+    }  
+
+    .pretty-link:hover {  
+      background-color: #0056b3; /* 鼠标悬停时的背景颜色 */  
+    }  
+    
+    body {  
+        /* 设置背景图片，url为图片的路径 */  
+        background-image: url('first.jpg');  
+        /* 背景图片不重复 */  
+        background-repeat: no-repeat;  
+        /* 背景图片居中显示 */ 
+        background-position: center center;  
+        /* 背景图片大小覆盖整个容器 */  
+        background-size: cover;  
+        /* 背景图片固定，不随页面滚动 */  
+        background-attachment: fixed;  
+    }  
+    #main-title {
+        text-align: center;
+        position: relative;
+        top: 80px;
+    }
+    #content {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    -->  
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    #links {
+        text-align: center;
+        padding-top: 50px;
+    }
+    #links a {
+        margin: 10px;
+    }
+    #navigation {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    #navigation ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #navigation li {
+        margin: 0 10px;
+    }
+    #navigation a {
+        color: #fff;
+        text-decoration: none;
+    }
+    #navigation a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+    <link rel="icon" href="main.ico">
+    <div id="navigation">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">暂未开放</a></li>
+            <li><a href="#">暂未开放</a></li>
+        </ul>
+    </div>
+    <div id="main-title">
+        <h1>欢迎来访！</h1>
+        <h2>欢迎来到本网页。</h2>
+    </div>
+    <div id="content">
+        <p>该网站正在建设中...</p>
+    </div>
+    <div id="links">
+        <a href="#" class="pretty-link">暂未开放</a>  
+        <a href="#" class="pretty-link">暂未开放</a>  
+        <a href="#" class="pretty-link">暂未开放</a>  
+        <a href="#" class="pretty-link">暂未开放</a>  
+        <!--<a href="#" class="pretty-link"></a>-->
+    </div>
+</body>
+</html>
